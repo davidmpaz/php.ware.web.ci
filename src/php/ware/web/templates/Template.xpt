@@ -1,0 +1,28 @@
+«IMPORT php::ware::web»
+
+«EXTENSION php::ware::web::extensions::Extensions»
+
+«DEFINE main FOR Module -»
+«FILE "README.md"-»
+###Model For CodeIgniter Controller
+
+This is an example of a generated file.
+For the web controller CodeIgniter cartridge
+«ENDFILE-»
+«ENDDEFINE»
+
+«DEFINE main FOR Controller -»
+«FILE "README.md" toControllerDir -»
+###Model For CodeIgniter Controller
+
+This is an example of a generated file.
+For the web controller CodeIgniter cartridge
+«ENDFILE-»
+
+«FILE "README.impl.md" toControllerImplDir -»
+###Model For CodeIgniter Controller
+
+This is an example of a generated file.
+For the web controller CodeIgniter cartridge
+«ENDFILE-»
+«ENDDEFINE»
